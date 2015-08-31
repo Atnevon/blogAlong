@@ -15,7 +15,18 @@
  */
 
 .navbar li {
-	margin-left: 20px;
+/*	margin-left: 20px;
 	margin-right: 20px;
-	border: none;
+	border: none;*/
+}
+
+/*a.navbar-brand {
+
+	margin-right: 25px;
+
+	margin-left: 15px;
+}*/
+
+body > nav > div.navbar-header {
+	margin-right: 10px;
 }

@@ -34,8 +34,11 @@
       </button>      
       <a class="navbar-brand">
         <img alt="BrandHELLO" src="http://i.imgur.com/GXyQO0r.png">
+
+        <%= link_to Rails.application.class.parent_name, root_url, :class => "navbar-brand" %>
+     
       </a>
-      <%= link_to Rails.application.class.parent_name, root_url, :class => "navbar-brand" %>
+      
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
